@@ -2,10 +2,10 @@
 /* main function prints some strings*/
 /**
  * main - print where we begin
- * return - return 0
+ * Return:  return zero to declare success
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle \n");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
