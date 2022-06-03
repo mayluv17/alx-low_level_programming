@@ -11,20 +11,19 @@ int main(void)
 {
 	int n;
 	int l;
-	char str[50];
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	l = n % 10;
 	
 	if (l > 5)
 	{
-		str = "is greater than 5";
+		char str[] = "is greater than 5";
 	} else if (l == 0)
 	{
-		str = "is 0";
+		char str[] = "is 0";
 	} else if (n < 6)
 	{
-		str = "is less than 6 and not 0";
+		char str[] = "is less than 6 and not 0";
 	} else
 	{
 	}
