@@ -18,13 +18,13 @@ int main(void)
 	
 	if (l > 5)
 	{
-		char str[50] = "is greater than 5";
+		str = "is greater than 5";
 	} else if (l == 0)
 	{
-		char str[50] = "is 0";
-	} else if (n < 6i)
+		str = "is 0";
+	} else if (n < 6)
 	{
-		char str[50] = "is less than 6 and not 0";
+		str = "is less than 6 and not 0";
 	} else
 	{
 	}
