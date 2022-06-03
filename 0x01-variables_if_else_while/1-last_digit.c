@@ -10,8 +10,9 @@
 int main(void)
 {
 	int n;
+	int l;
+	char str[50];
 	int l = n % 10;
-        char str[50];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
